@@ -1,6 +1,4 @@
-import email
-from email.quoprimime import quote
-from flask import Flask,render_template, url_for, request,redirect
+from flask import Flask,render_template, request,redirect
 import csv
 
 app = Flask(__name__)
@@ -11,7 +9,6 @@ def save_db(data):
 
 def save_db_csv(data):
     with open('database.csv', mode='a', newline='') as database:
-        #database.write(f"\n{data['email']}, {data['subject']}, {data['text']}")
         csv_writer = csv.writer(database, 
         delimiter=',', 
         quotechar='|', 
