@@ -1,0 +1,10 @@
+Give the enviroment variable
+
+On windows
+set FLASK_APP=file_name.py
+
+PowerShell
+$env:FLASK_APP = "file_name.py"
+
+run
+flask run
