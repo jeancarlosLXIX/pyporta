@@ -2,7 +2,7 @@ Give the enviroment variable
 
 On windows
 set FLASK_APP=file_name.py
-
+set FLASK_ENV=development
 PowerShell
 $env:FLASK_APP = "file_name.py"
 

@@ -1,5 +1,6 @@
 from flask import Flask,render_template, request,redirect
 import csv
+from static.data import projects # bringing the dict 
 
 app = Flask(__name__)
 
@@ -20,6 +21,10 @@ def save_db_csv(data):
 @app.route('/')
 def home():
     return render_template('index.html', title="Welcome")
+
+@app.route('/work.html/<string:project>')
+def load_work(project):
+    return render_template("test.html", **projects[project])
 
 @app.route('/<string:page_name>') # dinamicly get the name, so we don't have to worry about doing the same prpcess
 def html_page(page_name):
