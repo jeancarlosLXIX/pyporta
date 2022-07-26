@@ -8,3 +8,9 @@ $env:FLASK_APP = "file_name.py"
 
 run
 flask run
+
+LINUX
+. venv/bin/activate
+pip3 install -r requirements.txt
+export FLASK_APP=hello.py
+https://www.educba.com/flask-debug-mode/
