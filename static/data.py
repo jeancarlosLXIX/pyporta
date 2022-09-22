@@ -14,7 +14,7 @@ projects = {
         "description": "Take a folder with differents files and create a folder for each group (extension based).",
         "quote": "For every minute spent organizing, an hour is earned.",
         "author": "Anonymous.",
-        "image_src": ["../static/assets/images/work001-01.jpg","../static/assets/images/news_1.png","../static/assets/images/news_2.png"],
+        "image_src": ["../static/assets/images/work001-01.jpg","../static/assets/images/organizer2.jpg","../static/assets/images/organizer3.png"],
         "repo": "https://github.com/jeancarlosLXIX/boring-stuff.py/tree/main/PROJECTS/Organizer"
     },
     "Test":{
