@@ -5,7 +5,7 @@ from static.data import projects # bringing the dict
 app = Flask(__name__)
 
 def save_db(data):
-    with open('database.txt', 'a') as file:
+    with open('database.csv', 'a') as file:
         file.write(f"\n{data['email']}, {data['subject']}, {data['text']}")
 
 def save_db_csv(data):

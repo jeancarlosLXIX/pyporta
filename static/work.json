@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "href": "./work.html/Scrape",
+        "src": "static/assets/images/portada_news.jpg",
+        "projectName": "Scrape the source.",
+        "description": "Watch news from some popular websites.",
+        "a": "./work.html/Scrape"
+    },
+    {
+        "id": 2,
+        "href": "./work.html/Organizer",
+        "src": "static/assets/images/portada_organizer.jpg",
+        "projectName": "Organizer.",
+        "description": "A simple script to organized file based on the extension.",
+        "a": "/work.html/Organizer"
+    },
+    {
+        "id": 3,
+        "href": "./work.html/Bot",
+        "src": "static/assets/images/portada_bot.jpg",
+        "projectName": "Tracker bot.",
+        "description": "Easily track your expenses from telegram.",
+        "a": "./work.html/Bot"
+    },
+    {
+        "id": 4,
+        "href": "#",
+        "src": "static/assets/images/work02-hover.jpg",
+        "projectName": "Undefine",
+        "description": "The quick brown fox jumps over the lazy dog.",
+        "a": "#"
+    },
+    {
+        "id": 5,
+        "href": "#",
+        "src": "static/assets/images/work02-hover.jpg",
+        "projectName": "Undefine",
+        "description": "The quick brown fox jumps over the lazy dog.",
+        "a": "#"
+    },
+    {
+        "id": 6,
+        "href": "#",
+        "src": "static/assets/images/work02-hover.jpg",
+        "projectName": "Undefine",
+        "description": "The quick brown fox jumps over the lazy dog.",
+        "a": "#"
+    }
+    
+]
